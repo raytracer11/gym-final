@@ -1,0 +1,86 @@
+ERROR 2025-04-01 14:47:05,266 views 13188 12384 API request failed: 404 Client Error: Not Found for url: https://api.groq.com/v1/chat/completions
+ERROR 2025-04-01 14:47:12,862 views 13188 12384 API request failed: 404 Client Error: Not Found for url: https://api.groq.com/v1/chat/completions
+INFO 2025-04-01 14:50:07,061 views 12532 13772 Received workout request - Body Type: ectomorph, Weight: 85, Health Conditions: none
+INFO 2025-04-01 14:50:07,061 views 12532 13772 Sending request to Groq API for workout plan
+ERROR 2025-04-01 14:50:08,802 views 12532 13772 API request failed: 404 Client Error: Not Found for url: https://api.groq.com/v1/chat/completions
+INFO 2025-04-01 15:03:28,056 views 14756 9388 Received chat message: hello
+INFO 2025-04-01 15:03:28,057 views 14756 9388 Sending request to Groq API
+ERROR 2025-04-01 15:03:28,842 views 14756 9388 API request failed: 404 Client Error: Not Found for url: https://api.groq.com/v1/chat/completions
+INFO 2025-04-01 15:03:43,799 views 14756 9388 Received chat message: workout plan
+INFO 2025-04-01 15:03:43,800 views 14756 9388 Sending request to Groq API
+ERROR 2025-04-01 15:03:44,443 views 14756 9388 API request failed: 404 Client Error: Not Found for url: https://api.groq.com/v1/chat/completions
+INFO 2025-04-01 15:04:03,800 views 14756 9388 Received workout request - Body Type: endomorph, Weight: 85, Health Conditions: 
+INFO 2025-04-01 15:04:03,811 views 14756 9388 Sending request to Groq API for workout plan
+ERROR 2025-04-01 15:04:04,482 views 14756 9388 API request failed: 404 Client Error: Not Found for url: https://api.groq.com/v1/chat/completions
+INFO 2025-04-01 15:04:32,801 views 14756 9388 Received diet tracking request with 1 meals
+INFO 2025-04-01 15:04:32,801 views 14756 9388 Sending request to Groq API for diet analysis
+ERROR 2025-04-01 15:04:33,334 views 14756 9388 API request failed: 404 Client Error: Not Found for url: https://api.groq.com/v1/chat/completions
+INFO 2025-04-01 15:10:25,164 views 15252 10428 Received workout request - Body Type: endomorph, Weight: 90, Health Conditions: 
+INFO 2025-04-01 15:10:25,165 views 15252 10428 Sending request to Groq API for workout plan
+ERROR 2025-04-01 15:10:25,912 views 15252 10428 API request failed: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+INFO 2025-04-01 15:10:34,484 views 15252 10428 Received chat message: hello
+INFO 2025-04-01 15:10:34,485 views 15252 10428 Sending request to Groq API
+ERROR 2025-04-01 15:10:35,071 views 15252 10428 API request failed: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+INFO 2025-04-01 15:10:55,515 views 15252 10428 Received diet tracking request with 1 meals
+INFO 2025-04-01 15:10:55,516 views 15252 10428 Sending request to Groq API for diet analysis
+ERROR 2025-04-01 15:10:56,208 views 15252 10428 API request failed: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+INFO 2025-04-01 15:14:32,651 views 10040 15220 Received workout request - Body Type: endomorph, Weight: 90, Health Conditions: 
+INFO 2025-04-01 15:14:32,672 views 10040 15220 Sending request to Groq API for workout plan
+ERROR 2025-04-01 15:14:33,822 views 10040 15220 API request failed with status 400: {"error":{"message":"The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+INFO 2025-04-01 15:14:46,527 views 10040 15220 Received chat message: hello
+INFO 2025-04-01 15:14:46,536 views 10040 15220 Sending request to Groq API
+ERROR 2025-04-01 15:14:47,056 views 10040 15220 API request failed with status 400: {"error":{"message":"The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+INFO 2025-04-01 15:15:04,121 views 10040 15220 Received diet tracking request with 1 meals
+INFO 2025-04-01 15:15:04,122 views 10040 15220 Sending request to Groq API for diet analysis
+ERROR 2025-04-01 15:15:04,665 views 10040 15220 API request failed with status 400: {"error":{"message":"The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+INFO 2025-04-01 15:19:55,852 views 16176 12124 Received workout request - Body Type: endomorph, Weight: 85, Health Conditions: 
+INFO 2025-04-01 15:19:55,853 views 16176 12124 Sending request to Groq API for workout plan
+ERROR 2025-04-01 15:19:56,348 views 16176 12124 API request failed with status 404: {"error":{"message":"The model `mixtral-8x7b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+INFO 2025-04-01 15:24:43,856 views 16176 12124 Received workout request - Body Type: endomorph, Weight: 85, Health Conditions: 
+INFO 2025-04-01 15:24:43,857 views 16176 12124 Sending request to Groq API for workout plan
+ERROR 2025-04-01 15:24:44,524 views 16176 12124 API request failed with status 404: {"error":{"message":"The model `mixtral-8x7b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+INFO 2025-04-01 15:24:54,006 views 16176 12124 Received chat message: h6ello
+INFO 2025-04-01 15:24:54,007 views 16176 12124 Sending request to Groq API
+ERROR 2025-04-01 15:24:54,555 views 16176 12124 API request failed with status 404: {"error":{"message":"The model `mixtral-8x7b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
+INFO 2025-04-01 15:27:29,894 views 3720 9884 Received workout request - Body Type: endomorph, Weight: 90, Health Conditions: 
+INFO 2025-04-01 15:27:29,895 views 3720 9884 Sending request to OpenAI API for workout plan
+ERROR 2025-04-01 15:27:30,913 views 3720 9884 API request failed with status 404: {
+    "error": {
+        "message": "The model `gpt-4-turbo-preview` does not exist or you do not have access to it.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "model_not_found"
+    }
+}
+
+INFO 2025-04-01 15:30:31,666 views 3524 13920 Received chat message: h6ello
+INFO 2025-04-01 15:30:31,672 views 3524 13920 Sending request to OpenAI API
+ERROR 2025-04-01 15:30:32,488 views 3524 13920 API request failed with status 404: {
+    "error": {
+        "message": "The model `gpt-4` does not exist or you do not have access to it.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "model_not_found"
+    }
+}
+
+INFO 2025-04-01 15:33:35,270 views 13520 10396 Received chat message: hello
+INFO 2025-04-01 15:33:35,273 views 13520 10396 Sending request to OpenAI API
+ERROR 2025-04-01 15:33:38,936 views 13520 10396 API request failed with status 401: {
+    "error": {
+        "message": "Incorrect API key provided: sk-Hs0Hs******************************0Hs0. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}
+
+ERROR 2025-04-02 13:50:49,983 views 8688 10344 Error in chat endpoint: Client.__init__() got an unexpected keyword argument 'proxies'
+ERROR 2025-04-02 13:51:15,040 views 8688 10344 Error in chat endpoint: Client.__init__() got an unexpected keyword argument 'proxies'
+ERROR 2025-04-02 13:51:42,792 views 8688 10344 Error in chat endpoint: Client.__init__() got an unexpected keyword argument 'proxies'
